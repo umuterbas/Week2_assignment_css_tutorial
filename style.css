@@ -4,3 +4,33 @@
     background-color: #6b6969;
     color: azure;
 }
+
+.bottom__inner{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    gap: 3em;
+}
+
+
+.member-card{
+    box-shadow:0 0 10px #6b6969;
+    width: 25%;
+    text-align: center;
+    padding: 3em;
+}
+
+.member-card > h3{
+    font-size: 2em;
+    margin: 0px;
+    margin-bottom: 2em;
+}
+
+.member-card > a{
+    padding: 1em;
+    display: block;
+    width: 100%;
+    border: solid;
+    transform: translateX(-11%);
+    text-decoration: none;
+}
