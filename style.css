@@ -11,7 +11,7 @@ h1{
 .top-container{
     background-color: #232946;
     color: #fffffe;
-     height: 130vh;
+     height: 110vh;
 }
 
 .top-inner{
@@ -62,7 +62,7 @@ h1{
 }
 
 .bottom-container{
-    margin-top: 2em;
+    margin-top: 10em;
     height: 100vh;
 }
 
