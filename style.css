@@ -78,6 +78,8 @@ h1{
     font-size: 2em;
     margin: 0px;
     margin-bottom: 2em;
+    display: block;
+    width: 91%;
 }
 
 .member-card > a{

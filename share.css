@@ -80,6 +80,10 @@ h1{
     column-gap: 1em;
 }
 
+.tutorial-explanation > span{
+    font-size: 1.5em;
+}
+
 .each-tutorial{
     width: 100%;
     border: solid 1px black;
