@@ -1,6 +1,10 @@
+body{
+    margin: 0;
+}
 .top-container{
-    background-color: #6b6969;
+    background-color: #284570;
     color: azure;
+    height: 100vh;
 }
 
 .top-inner{
@@ -13,10 +17,80 @@
     text-decoration: none;
     color: azure;
     display: block;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+h1{
+    font-size: 2.5em;
 }
 
 .top-title{
     width: 90%;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 2em;
+}
+
+.property-name-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em
+}
+
+.box{
+    width: 32%;
+    height: 25vh;
+    background-color: #7c89c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.tutorial{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10em
+}
+
+.each-tutorial{
+    width: 100%;
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+h4{
+    font-size: 1.5rem;
+    margin-left: 2em;
+}
+
+.tutorial-inner{
+    display: flex;
+    column-gap: 1em;
+}
+
+.tutorial-result, .tutorial-code{
+    border: solid 1px black;
+    width: 50%;
+}
+
+.tutorial-result > span, .tutorial-code > span{
+    margin-left: 3em;
 }
