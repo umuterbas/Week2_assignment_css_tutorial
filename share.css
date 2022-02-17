@@ -1,0 +1,22 @@
+.top-container{
+    background-color: #6b6969;
+    color: azure;
+}
+
+.top-inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-inner > a{
+    text-decoration: none;
+    color: azure;
+    display: block;
+}
+
+.top-title{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
