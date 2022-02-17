@@ -1,8 +1,57 @@
+body{
+    margin: 0;
+}
 
+h1{
+    font-size: 4em;
+    margin: 0;
+    padding: .3em;
+}
 
 .top-container{
-    background-color: #6b6969;
+    background-color: #232946;
+    color: #fffffe;
+     height: 130vh;
+}
+
+.top-inner{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.title, .inner-box{
+    width: 50%;
+}
+
+.title{
     color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+.title > h2{
+    font-size: 5em;
+}
+
+.inner-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.box{
+    width: 30%;
+    height: 20vh;
+    background-color: #eebbc3;
+    color: #232946;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 .bottom__inner{
@@ -10,6 +59,11 @@
     display: flex;
     margin: 0 auto;
     gap: 3em;
+}
+
+.bottom-container{
+    margin-top: 2em;
+    height: 100vh;
 }
 
 
