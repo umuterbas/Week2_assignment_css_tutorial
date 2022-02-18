@@ -1,0 +1,16 @@
+.property-1 {
+  text-indent: 25px;
+}
+
+.property-2 {
+    text-shadow: 2px 2px #ff0000;
+}
+
+.property-3 {
+    text-transform: uppercase;
+}
+
+.property-4 {
+    background-color:rgb(110, 135, 245);
+    box-shadow: 5px 5px 5px rgb(218, 110, 245);
+}
