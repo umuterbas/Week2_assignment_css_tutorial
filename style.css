@@ -34,7 +34,7 @@ h1{
 }
 
 .title > h2{
-    font-size: 5em;
+    font-size: 4.2em
 }
 
 .inner-box{
@@ -52,6 +52,7 @@ h1{
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 .bottom__inner{
@@ -87,6 +88,7 @@ h1{
     display: block;
     width: 100%;
     border: solid;
-    transform: translateX(-11%);
+    transform: translateX(-9%);
     text-decoration: none;
+    border-radius: 30px
 }
