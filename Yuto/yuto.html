@@ -23,7 +23,7 @@
              <div class="property-name-box">
                <div class="box"><span>text-decoration</span></div>
                <div class="box"><span>cursor</span></div>
-               <div class="box"><span>visibility</span></div>
+               <div class="box"><span>User-select</span></div>
                <div class="box"><span>@keyframe</span></div>
              </div>
          </div>
@@ -53,13 +53,13 @@
                         <pre>
                             <code class="decoration-code">
                                 h1{
-                                    text-decoration: overline;
+                                    text-decoration: overline dotted;
                                 }
                                 h2{
                                     text-decoration: line-through;
                                 }
                                 h3{
-                                    text-decoration: underline;
+                                    text-decoration: underline red;
                                 }
                                 h4{
                                     text-decoration; underline overline;
@@ -151,7 +151,7 @@
                                 }
                                 .unselective{
                                     -webkit-user-select: none;(Safari)
-                                    -me-user-select: none; (IE10 or IE11)
+                                    -ms-user-select: none; (IE10 or IE11)
                                     user-select: none; (Standard syntax)
                                 }
                             </code>
@@ -180,6 +180,9 @@
                         <h4>CSS</h4>
                         <pre>
                             <code class="keyframe-code">
+                                .gone{
+                                    animation: gone 7s infinite;
+                                }
                                 @keyframe gone{
                                     from{
                                         transform: translateX(0);
@@ -188,6 +191,10 @@
                                         transform: translateX(-800px);
                                     }
                                 };
+
+                                .rotate{
+                                    animation:rotation 10s infinite;
+                                }
                                 @keyframe rotation{
                                     0%{
                                         transform: rotateY(0);
