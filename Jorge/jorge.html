@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css-tutorial-jorge</title>
     <link rel="stylesheet" href="../share.css">
+    <link rel="stylesheet" href="./jorge.css">
 </head>
 <body>
     <section class="top-container">
@@ -20,32 +21,40 @@
                  <h2>CSS Tutorial <br />by Jorge</h2>
              </div>
              <div class="property-name-box">
-               <div class="box"><span>CSS Property Name</span></div>
-               <div class="box"><span>CSS Property Name</span></div>
-               <div class="box"><span>CSS Property Name</span></div>
-               <div class="box"><span>CSS Property Name</span></div>
+               <div class="box"><span>columns</span></div>
+               <div class="box"><span>opacity</span></div>
+               <div class="box"><span>border</span></div>
+               <div class="box"><span>word spacing</span></div>
              </div>
          </div>
       </section>
       <section class="tutorial">
          <div class="each-tutorial">
             <div class="tutorial-title">
-                <h3>CSS Property Name</h3>
+                <h3>Columns</h3>
             </div>
             <div class="tutorial-inner">
                 <div class="tutorial-explanation">
-                    <span>explanation</span>
+                    <span>The columns property is a shorthand property for: column-width column-count The column-width part will define the minimum width for each column, while the column-count part will define the maximum number of columns. By using this property, the multi-column layout will automatically break down into a single column at narrow browser widths, without the need of media queries or other rules.</span>
                 </div>
                 <div class="tutorial-box">
                     <div class="tutorial-result">
+                        <div class="columnas">
                         <h4>Result</h4>
-                        <span>Result Result Result</span>
-                    </div>
+                        <span>The columns property is a shorthand property for:
+
+column-width
+column-count
+The column-width part will define the minimum width for each column, while the column-count part will define the maximum number of columns. By using this property, the multi-column layout will automatically break down into a single column at narrow browser widths, without the need of media queries or other rules.</span>
+</div>                    
+</div>
                     <div class="tutorial-code">
                         <h4>CSS</h4>
                         <pre>
                             <code>
-                                console.log("hello world");
+                                div {
+                                    column-count: 3;
+                                  }
                             </code>
                         </pre>
                     </div>
@@ -54,22 +63,31 @@
         </div>
          <div class="each-tutorial">
             <div class="tutorial-title">
-                <h3>CSS Property Name</h3>
+                <h3>Opacity</h3>
             </div>
             <div class="tutorial-inner">
                 <div class="tutorial-explanation">
-                    <span>explanation</span>
+                    <span>The opacity property sets the opacity level for an element.
+
+                        The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.</span>
                 </div>
                 <div class="tutorial-box">
                     <div class="tutorial-result">
                         <h4>Result</h4>
-                        <span>Result Result Result</span>
+
+                            <div class="mask-result">
+                                <img src="C:\Users\Jorge Ruiz\Desktop\Code\Week2_assignment_css_tutorial\images\galaxy.jpg" alt="galaxia" class="galaxy1">
+                                <img src="C:\Users\Jorge Ruiz\Desktop\Code\Week2_assignment_css_tutorial\images\galaxy.jpg" alt="galaxia2" class="galaxy2">
+                            </div>
+                   
                     </div>
                     <div class="tutorial-code">
                         <h4>CSS</h4>
                         <pre>
                             <code>
-                                console.log("hello world");
+                                div {
+                                    opacity: 0.5;
+                                  };
                             </code>
                         </pre>
                     </div>
@@ -78,23 +96,32 @@
         </div>
          <div class="each-tutorial">
             <div class="tutorial-title">
-                <h3>CSS Property Name</h3>
+                <h3>Border</h3>
             </div>
             <div class="tutorial-inner">
                 <div class="tutorial-explanation">
-                    <span>explanation</span>
+                    <span>The border property is a shorthand property for
+
+                        border-width,
+                        border-style (required),
+                        border-color.</span>
                 </div>
                 <div class="tutorial-box">
                     <div class="tutorial-result">
                         <h4>Result</h4>
-                        <span>Result Result Result</span>
+                        <span>
+                            <div class="p-result">
+                            <img src="C:\Users\Jorge Ruiz\Desktop\Code\Week2_assignment_css_tutorial\images\galaxy.jpg" alt="galaxia" class="galaxy3">
+                            
+                        </div>
+                    </span>
                     </div>
                     <div class="tutorial-code">
                         <h4>CSS</h4>
                         <pre>
                             <code>
-                                console.log("hello world");
-                            </code>
+                                h1 {
+                                    border: 5px solid red;                            </code>
                         </pre>
                     </div>
                 </div>
@@ -102,23 +129,29 @@
         </div>
          <div class="each-tutorial">
             <div class="tutorial-title">
-                <h3>CSS Property Name</h3>
+                <h3>Word Spacing</h3>
             </div>
             <div class="tutorial-inner">
                 <div class="tutorial-explanation">
-                    <span>explanation</span>
+                    <span>The word-spacing property increases or decreases the white space between words.</span>
                 </div>
                 <div class="tutorial-box">
                     <div class="tutorial-result">
                         <h4>Result</h4>
-                        <span>Result Result Result</span>
+                        <div class="kerning">
+                            Lorem ipsum dolor.
+                        </div>
+                        <div class="kerning2">
+                            Lorem ipsum dolor.
+                        </div>
                     </div>
                     <div class="tutorial-code">
                         <h4>CSS</h4>
                         <pre>
                             <code>
-                                console.log("hello world");
-                            </code>
+                                p {
+                                    word-spacing: 30px;
+                                  }                            </code>
                         </pre>
                     </div>
                 </div>
