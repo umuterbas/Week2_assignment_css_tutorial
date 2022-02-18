@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css-tutorial-yuto</title>
+    <link rel="stylesheet" href="./yuto.css">
     <link rel="stylesheet" href="../share.css">
 </head>
 <body>
      <section class="top-container">
          <div class="top-inner">
              <a href="../index.html"><h1>Team 1</h1></a>
-             <a href="../Umut/umut.html"><span>Umut</span></a> 
+             <a href="../Umut/umut.html"><span>Umut</span></a>
              <a href="../Jorge/jorge.html"><span>Mauricio</span></a>
              <a href="../Yuto/yuto.html"><span>Jorge</span></a>
          </div>
@@ -39,7 +40,12 @@
                 <div class="tutorial-box">
                     <div class="tutorial-result">
                         <h4>Result</h4>
-                        <span>Result Result Result</span>
+                        <span>
+                            <h1>Text-decoration: overline;</h1>
+                            <h2>Text-decoration: line-through;</h2>
+                            <h3>Text-decoration: underline;</h3>
+                            <h4>Text-decoration: underline overline;</h4>
+                        </span>
                     </div>
                     <div class="tutorial-code">
                         <h4>CSS</h4>
@@ -69,18 +75,50 @@
             </div>
             <div class="tutorial-inner">
                 <div class="tutorial-explanation">
-                    <span>explanation</span>
+                    <span>The cursor property sets the mouse cursor, if any, to show when the mouse pointer is over an element.</span>
                 </div>
                 <div class="tutorial-box">
                     <div class="tutorial-result">
                         <h4>Result</h4>
-                        <span>Result Result Result</span>
+                        <span>
+                            <p class="copy">copy</p>
+                            <p class="default">default</p>
+                            <p class="grab">grab</p>
+                            <p class="help">help</p>
+                            <p class="no-drop">no-drop</p>
+                            <p class="none">none</p>
+                            <p class="pointer">pointer</p>
+                            <p class="progress">progress</p>
+                        </span>
                     </div>
                     <div class="tutorial-code">
                         <h4>CSS</h4>
                         <pre>
-                            <code>
-                                console.log("hello world");
+                            <code class="cursor-code">
+                                .copy{
+                                    cursor: copy;
+                                }
+                                .default{
+                                    cursor:default;
+                                }
+                                .grab{
+                                    cursor:grab;
+                                }
+                                .help{
+                                    cursor:help;
+                                }
+                                .no-drop{
+                                    cursor: no-drop;
+                                }
+                                .none{
+                                    cursor:none;
+                                }
+                                .pointer{
+                                    cursor:pointer;
+                                }
+                                .progress{
+                                    cursor:progress;
+                                }
                             </code>
                         </pre>
                     </div>
@@ -89,22 +127,29 @@
         </div>
         <div class="each-tutorial">
             <div class="tutorial-title">
-                <h3>Visibility</h3>
+                <h3>User-select</h3>
             </div>
             <div class="tutorial-inner">
                 <div class="tutorial-explanation">
-                    <span>explanation</span>
+                    <span>The visibility CSS property prevents text selection of a element</span>
                 </div>
                 <div class="tutorial-box">
                     <div class="tutorial-result">
                         <h4>Result</h4>
-                        <span>Result Result Result</span>
+                        <span >
+                            <p class="selectable">You can select this paragraph.</p>
+                            <p class="unselectable">You can't select this paragraph. If you double-click me, my text will not be highlighted</p>
+                        </span>
                     </div>
                     <div class="tutorial-code">
                         <h4>CSS</h4>
                         <pre>
-                            <code>
-                                console.log("hello world");
+                            <code class="visibility-code">
+                                .unselective{
+                                    -webkit-user-select: none;(Safari)
+                                    -me-user-select: none; (IE10 or IE11)
+                                    user-select: none; (Standard syntax)
+                                }
                             </code>
                         </pre>
                     </div>
@@ -117,12 +162,14 @@
             </div>
             <div class="tutorial-inner">
                 <div class="tutorial-explanation">
-                    <span>explanation</span>
+                    <span>The @keyframe controls the intermediate steps in a CSS animation sequence by defining styles for keyframes along the animation sequence. This gives more control over the intermediate steps of the animation sequence than transition property.</span>
                 </div>
                 <div class="tutorial-box">
                     <div class="tutorial-result">
                         <h4>Result</h4>
-                        <span>Result Result Result</span>
+                        <span>
+                            <div class="keyframe">Yuto's gone</div>
+                        </span>
                     </div>
                     <div class="tutorial-code">
                         <h4>CSS</h4>
