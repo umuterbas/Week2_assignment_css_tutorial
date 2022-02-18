@@ -10,7 +10,7 @@
 }
 
 .tutorial-result > span > h1{
-    text-decoration: overline;
+    text-decoration: overline dotted;
 }
 
 .tutorial-result > span > h2{
@@ -20,7 +20,7 @@
 
 .tutorial-result > span > h3{
     font-size: 1em;
-    text-decoration: underline;
+    text-decoration: underline red;
 }
 
 .tutorial-result > span > h4{
@@ -93,7 +93,7 @@
 
 .keyframe{
     color: #fff;
-    background-color: #13cd91;
+    background-color: #004643;
     width: 60%;
     text-align: center;
     padding: 1em 0;
